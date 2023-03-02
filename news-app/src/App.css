@@ -1,0 +1,20 @@
+.card-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card h1 {
+    font-weight: 1rem;
+    font-size: 0.2rem;
+}

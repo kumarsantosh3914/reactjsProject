@@ -1,0 +1,72 @@
+.card {
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+
+.search input {
+  background-color: hsla(233, 14%, 89%, 0.829);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 100vmax;
+}
+
+.search-btn {
+  padding: 10px 15px;
+  background-color: green;
+  border: none;
+  outline: none;
+  border-radius: 100vmax;
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

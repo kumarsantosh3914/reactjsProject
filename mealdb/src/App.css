@@ -3,6 +3,10 @@
   justify-content: space-between;
 } */
 
+body {
+  background: grey;
+}
+
 .App {
   text-align: center;
 }
